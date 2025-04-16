@@ -1,6 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 
 export default function AboutMe() {
   return (
@@ -12,10 +13,13 @@ export default function AboutMe() {
         transition={{ duration: 0.6 }}
         className="bg-black rounded-3xl p-6 relative flex-grow flex flex-col justify-center max-w-lg"
       >
-        <img
+        <Image
           src="https://mir-s3-cdn-cf.behance.net/project_modules/hd/06f21a161921919.63cd7887d0a70.gif"
           alt="About me"
           className="rounded-2xl w-full h-auto object-cover"
+          width={400}
+          height={400}
+          unoptimized
         />
         <div className="absolute top-6 right-6 text-white text-4xl font-extrabold">ABOUT ME</div>
         <div className="absolute bottom-6 left-6 w-10 h-10 bg-white text-[#1e2330] font-bold rounded-full flex items-center justify-center shadow-md text-lg">
@@ -31,9 +35,9 @@ export default function AboutMe() {
         className="flex-grow max-w-2xl flex flex-col justify-between"
       >
         <div className="text-2xl leading-relaxed font-medium mb-10">
-          I'm a Fullstack Developer with over 5 years of experience building modern, scalable, and user-focused web applications. I specialize in frontend development using React, Next.js, and TypeScript, while also contributing to backend solutions with Node.js, Express, and PostgreSQL.
+          I&apos;m a Fullstack Developer with over 5 years of experience building modern, scalable, and user-focused web applications. I specialize in frontend development using React, Next.js, and TypeScript, while also contributing to backend solutions with Node.js, Express, and PostgreSQL.
           <br /> <br />
-          I'm passionate about clean, functional UI, high-performance systems, and cross-functional teamwork. I thrive in product-focused environments where tech makes a real impact.
+          I&apos;m passionate about clean, functional UI, high-performance systems, and cross-functional teamwork. I thrive in product-focused environments where tech makes a real impact.
         </div>
 
         <div>
@@ -41,7 +45,7 @@ export default function AboutMe() {
           <div className="bg-black text-white rounded-2xl p-8 space-y-6 shadow-xl text-lg">
             <div>
               <h3 className="font-semibold text-2xl">Universidad de Colima</h3>
-              <p className="text-gray-400">Bachelor's Degree in Telematics Engineering (2015–2020)</p>
+              <p className="text-gray-400">Bachelor&apos;s Degree in Telematics Engineering (2015–2020)</p>
             </div>
             <div>
               <h3 className="font-semibold text-2xl">React, Next.js & Web animations</h3>
