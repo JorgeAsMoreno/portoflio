@@ -111,7 +111,7 @@ const Hero = () => {
             href='#projects'
             className='inline-block mt-8 px-6 py-3 bg-[#e9c0e9] text-[#292522] text-2xl font-extrabold rounded-xl shadow transition-all hover:bg-[#d2e823] hover:text-[#1e2330] hover:shadow-lg mb-5'
           >
-            See My Work ↓
+            See My Work
           </motion.a>
         </div>
 
